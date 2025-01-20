@@ -3,12 +3,12 @@
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 /* Header styles */
 .layout-header {
-    background-color: #13294b; /* UIUC Blue */
+    background-color: #e05f17; /* UIUC Orange */
     color: white;
     text-align: center;
     padding: 20px;
@@ -25,7 +25,7 @@
 
 .layout-nav a {
     margin: 0 10px;
-    color: #f4d03f; /* UIUC Orange */
+    color: #2c3a75; /* UIUC Blue */
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
@@ -46,7 +46,7 @@
 
 /* Footer styles */
 .layout-footer {
-    background-color: #13294b; /* UIUC Blue */
+    background-color: #e05f17; /* UIUC Orange */
     color: white;
     text-align: center;
     padding: 10px;

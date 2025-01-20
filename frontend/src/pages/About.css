@@ -24,7 +24,7 @@
 
 .subheading {
     font-size: 1.2rem;
-    color: #f4d03f; /* UIUC Orange */
+    color: #e05f17; /* UIUC Orange */
     margin-top: 10px;
 }
 
@@ -42,7 +42,7 @@
 
 /* Individual choice box */
 .choice-box {
-    background-color: #13294b; /* UIUC Blue */
+    background-color: #2c3a75; /* UIUC Blue */
     color: #ffffff; /* White text */
     text-align: center;
     padding: 40px 20px;
@@ -50,13 +50,13 @@
     text-decoration: none; /* Remove underline from Link */
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
-    border: 3px solid #f4d03f; /* UIUC Orange border */
+    border: 3px solid #e05f17; /* UIUC Orange border */
     width: 250px; /* Fixed width for uniform size */
 }
 
 .choice-box:hover {
     transform: scale(1.05); /* Slight zoom on hover */
-    background-color: #f4d03f; /* UIUC Orange on hover */
+    background-color: #e05f17; /* UIUC Orange on hover */
     color: #13294b; /* Change text color to blue */
 }
 

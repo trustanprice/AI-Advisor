@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import Schedule from './pages/Schedule';
-import MajorPick from './pages/MajorPick';
 import MajorChange from './pages/MajorChange';
+import MajorPick from './pages/MajorPick';
+import Schedule from './pages/Schedule';
+import About from './pages/About';
 
 function App() {
     return (
