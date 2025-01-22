@@ -1,3 +1,4 @@
+/* General layout container */
 .layout-container {
     display: flex;
     flex-direction: column;
@@ -35,13 +36,71 @@
     color: white;
 }
 
-/* Main content area */
+/* Main content area with scrollable form */
 .layout-main {
     flex: 1;
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    background-color: #f5f5f5; /* Light gray for contrast */
+}
+
+/* Form container */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: 2px solid #e05f17; /* UIUC Orange */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto; /* Make the form scrollable */
+    max-height: 70vh; /* Restrict height to 70% of the viewport */
+}
+
+/* Form elements */
+.form-container h2 {
+    color: #2c3a75; /* UIUC Blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #2c3a75; /* UIUC Blue */
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e05f17; /* UIUC Orange */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2c3a75; /* UIUC Blue */
 }
 
 /* Footer styles */
