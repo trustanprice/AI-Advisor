@@ -104,15 +104,23 @@ Techniques:
 ## 🧩 Future Improvements
 
  User authentication & account saving
+ 
  Major-specific schedule constraints
+ 
  Multi-campus university support
+
  GPT-powered Q&A assistant
+ 
  Admin dashboard for uploading catalogs
 
 ## 🙌 Acknowledgments
 
 UIUC Course Catalog
+
 Wade Fagen-Ulmschneider grade distribution
+
 Create React App
+
 Flask + scikit-learn ecosystem
+
 BeautifulSoup web scraping resources
